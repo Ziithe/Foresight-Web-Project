@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
 import ScrollToTop from 'react-scroll-to-top';
-import styles from '../css/Home.module.css';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Partners from './Partners';
