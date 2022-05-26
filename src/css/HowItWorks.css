@@ -1,0 +1,75 @@
+.approachSection{
+    margin-left: 0;
+    padding-bottom: 4rem;
+}
+
+.howTitle{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.cardGroup{
+    margin: 0 3.25rem;
+}
+
+.howCard{
+    margin: 0rem 2.5rem;
+    border: none;
+}
+
+.howCard:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 900px) {
+    
+    .howTitle{
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .cardGroup{
+        margin: 0 2.25rem;
+    }
+    
+    .howCard{
+        margin: 0rem 1.5rem;
+        border: none;
+    }
+
+    .cardTitle{
+        font-size: 1.3rem;
+    }
+
+    .cardText{
+        font-size: .9rem;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .cardGroup{
+        margin: 0 2.2rem;
+    }
+    
+    .howCard{
+        margin: 0rem 1.2rem;
+        border: none;
+    }
+
+    .cardTitle{
+        font-size: 1.1rem;
+    }
+
+    .cardText{
+        font-size: .75rem;
+    }
+}

@@ -1,0 +1,409 @@
+:root{
+    --primary: #21897E;
+    --white: #fafafa;
+    --black: #282828;
+    --blue: #58b5dd;
+    --alt-blue: #E4F4F4;
+    --red: #B80C09;
+}
+
+
+.aboutSection{
+    background-color: #21897f18;
+    margin-top: 3rem;
+}
+
+.aboutTitle{
+    padding: 5rem 0 1.5rem 0rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.aboutText{
+    padding: 0rem 0 1.5rem 0rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 3.25rem;
+}
+
+
+.aboutLeft{
+    width: 50%;
+}
+
+.aboutImg{
+    width: 700px;
+    border-radius: 4px;
+}
+
+.aboutRight{
+    padding-top: 6.2rem;
+    width: 50%;
+    padding-left: 3rem;
+}
+
+.aboutRightTitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1.2rem;
+}
+
+.aboutRightText{
+    padding-bottom: 1.2rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+.aboutBtn{
+    font-size: .9rem;
+    outline: none;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 1rem 1.2rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.aboutBtn:hover{
+    background-color: #25a8db;
+    transition: .5s ease;
+    box-shadow: 2px 2px #e2e0e0de;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.25rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+
+.iconColumn {
+    float: left;
+    width: 25%;
+    margin-bottom: 3rem;
+}
+
+.iconColumn img{
+    height: 50px;
+}
+
+.iconColumn p{
+    display: inline-block;
+    padding-left: .7rem;
+    font-size: .85rem;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 1442px) {
+    .aboutImg{
+        width: 600px;
+    }
+
+    .aboutRight{
+        padding-top: 3.7rem;
+    }
+    
+}
+
+@media screen and (max-width: 1250px) {
+    .aboutImg{
+        width: 520px;
+    }
+
+    .aboutRight{
+        padding-top: 1rem;
+    }
+
+    .aboutRightTitle{
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding-bottom: .8rem;
+    }
+    
+    .aboutRightText{
+        padding-bottom: .8rem;
+        font-size: .9rem;
+        text-align: justify;
+    }
+
+    .aboutBtn{
+        font-size: .8rem;
+        outline: none;
+        background-color: var(--primary);
+        color: var(--white);
+        padding: .8rem 1rem;
+        
+    }
+
+    .aboutTitle{
+        padding: 3.8rem 0 1rem 0rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    
+    .aboutText{
+        padding: 0rem 0 1rem 0rem;
+        font-size: .9rem;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1080px) {
+    .aboutImg{
+        width: 460px;
+    }
+
+    .aboutRight{
+        padding-top: 1rem;
+    }
+
+    .aboutRightTitle{
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-bottom: .5rem;
+    }
+    
+    .aboutRightText{
+        padding-bottom: .5rem;
+        font-size: .8rem;
+        text-align: justify;
+    }
+
+    .aboutBtn{
+        font-size: .75rem;
+        outline: none;
+        background-color: var(--primary);
+        color: var(--white);
+        padding: .8rem 1rem;
+        
+    }
+
+    .aboutTitle{
+        padding: 3.8rem 0 1rem 0rem;
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    
+    .aboutText{
+        padding: 0rem 0 1rem 0rem;
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    .iconColumn img{
+        height: 45px;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .aboutContainer{
+        flex-direction: column;
+    }
+
+    .aboutLeft, .aboutRight{
+        width: 100%;
+    }
+
+    .aboutImg{
+        width: 100%;
+    }
+
+    .iconColumn img{
+        height: 40px;
+    }
+
+    .aboutRight{
+        padding-left: 0;
+        padding-top: 3.2rem;
+    }
+    
+    .aboutRightTitle{
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-bottom: 1rem;
+    }
+    
+    .aboutRightText{
+        padding-bottom: 1rem;
+        font-size: .9rem;
+        text-align: justify;
+    }
+    
+    .aboutBtn{
+        font-size: .9rem;
+        outline: none;
+        background-color: var(--primary);
+        color: var(--white);
+        padding: 1rem 1.2rem;
+        border-radius: 4px;
+        border: none;
+    }
+
+    .iconContainer{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+    
+    }
+    
+    .iconColumn img{
+        height: 40px;
+    }
+    
+    .iconColumn p{
+        display: inline-block;
+        padding-left: .5rem;
+        font-size: .7rem;
+        font-weight: 800;
+    }
+
+}
+
+@media screen and (max-width: 816px) {
+    .iconContainer{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    
+    .iconColumn img{
+        height: 35px;
+    }
+    
+    .iconColumn p{
+        padding-left: .5rem;
+        font-size: .65rem;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 712px) {
+
+    .aboutRightTitle{
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding-bottom: .8rem;
+    }
+    
+    .aboutRightText{
+        padding-bottom: .8rem;
+        font-size: .8rem;
+        text-align: justify;
+    }
+    
+    .aboutBtn{
+        font-size: .8rem;
+        padding: 1rem 1rem;
+    }
+
+    .iconContainer{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 9rem 9rem 9rem auto;
+        grid-gap: 6px; 
+    }
+
+    .iconColumn p{
+        display: inline-block;
+        padding-left: .2rem;
+        font-size: .6rem;
+        font-weight: 700;
+    }
+
+
+    
+} 
+
+@media screen and (max-width: 575px) {
+
+    .aboutTitle{
+        padding: 3.5rem 0 .8rem 0rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    
+    .aboutText{
+        padding: 0rem 1rem 1rem 1rem;
+        font-size: .88rem;
+        text-align: center;
+    }
+
+    .iconContainer{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 6rem 6rem 6rem auto;
+        grid-gap: 8px; 
+    }
+
+}
+
+@media screen and (max-width: 445px) {
+
+    .aboutTitle{
+        padding: 3rem 0 .5rem 0rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    
+    .aboutText{
+        padding: 0rem 1rem 1rem 1rem;
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    .aboutRightTitle{
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding-bottom: .8rem;
+    }
+    
+    .aboutRightText{
+        padding-bottom: .8rem;
+        font-size: .75rem;
+        text-align: justify;
+    }
+
+    .aboutBtn{
+        font-size: .7rem;
+        padding: .5rem .5rem;
+    }
+
+    .iconContainer{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 5rem 5rem 5rem auto;
+        grid-gap: 7px; 
+    }
+
+}
+
+@media screen and (max-width: 373px) {
+    .iconContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

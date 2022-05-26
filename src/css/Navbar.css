@@ -1,0 +1,83 @@
+/* color variables */
+:root{
+    --primary: #21897E;
+    --white: #fafafa;
+    --black: #282828;
+    --blue: #79adc4;
+    --alt-blue: #E4F4F4;
+    --red: #B80C09;
+}
+
+
+.navArea{
+    background: var(--primary);
+    padding: .7rem;
+}
+
+.brandTitle, .toggleBtn, .navLink{
+    color: var(--white);
+    margin: 0 1.5rem;
+}
+
+.brandTitle{
+    font-size: 1.8rem;
+    margin: 0 1.5rem;
+}
+
+.brandTitle:hover{
+    color: var(--white);
+}
+
+.navLink{
+    font-size: 1.0rem;
+    margin: 0 2rem;
+}
+
+.navLink:hover{
+    background: var(--blue);
+    color: var(--white);
+    border-radius: 3px;
+    transition: .4s ease-in;
+}
+
+
+.right{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 993px) {
+
+    .brandTitle{
+        margin-left: 1.2rem;
+    
+    }
+
+    .navLink{
+        margin-left: 1.2rem!important;
+    }
+
+    .toggleBtn{
+        margin-right: 1rem;
+    }
+    .right{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .brandTitle{
+        font-size: 1.3rem;
+    }
+    
+    .navLink{
+        font-size: .9rem;
+        margin: 0rem;
+    }
+    
+}

@@ -1,0 +1,111 @@
+/* color variables */
+:root{
+    --primary: #21897E;
+    --white: #fafafa;
+    --black: #282828;
+    --blue: #79adc4;
+    --alt-blue: #E4F4F4;
+    --red: #B80C09;
+}
+
+.testimonialsContainer{
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    background-image: url(../pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-color: #e5e9e969;
+}
+
+.testimonialTitle, .testimonialText{
+    text-align: center;
+}
+
+.testimonialTitle{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: .7rem;
+    padding-top: 3rem;
+}
+
+.cardGroup{
+    margin: 0 3.25rem;
+}
+
+.cardName{
+    font-size: .9rem;
+    color: #706d6d;
+}
+
+.cardName span{
+    color: var(--black);
+}
+
+.howCard{
+    margin: 3rem 2.5rem;
+    border: none;
+    margin-bottom: 3rem!important;
+}
+
+.howCard:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 900px) {
+    
+    .howTitle{
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .cardGroup{
+        margin: 0 2.25rem;
+    }
+    
+    .howCard{
+        margin: 0rem 1.5rem;
+        border: none;
+    }
+
+    .cardTitle{
+        font-size: 1.3rem;
+    }
+
+    .cardText{
+        font-size: .9rem;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .cardGroup{
+        margin: 0 2.2rem;
+    }
+    
+    .howCard{
+        margin: 0rem 1.2rem;
+        border: none;
+    }
+
+    .cardTitle{
+        font-size: 1.1rem;
+    }
+
+    .cardText{
+        font-size: .75rem;
+    }
+
+    .testimonialTitle{
+        font-size: 20.8px;
+    }
+
+    .testimonialText{
+        font-size: 14.08px;
+        padding: .8rem 2.6rem;
+    }
+}

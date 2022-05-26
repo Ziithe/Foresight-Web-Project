@@ -1,0 +1,12 @@
+.carouselSection{
+    margin-top: 1.4rem;
+}
+
+.carouselImg{
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 992px){
+
+
+}

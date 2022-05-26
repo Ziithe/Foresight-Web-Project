@@ -1,0 +1,278 @@
+:root{
+    --primary: #21897E;
+    --white: #fafafa;
+    --black: #282828;
+    --blue: #79adc4;
+    --alt-blue: #E4F4F4;
+    --red: #B80C09;
+}
+
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexLeft{
+    width: 50%;
+    height: 100vh;
+    background-color: #E9F1F0;
+    
+}
+
+.registerNav{
+    display: flex;
+    margin: 2rem 1.5rem;
+    flex-direction: row;
+}
+
+.navTitle{
+    font-size: 1.8rem;
+    color: var(--primary);
+    font-weight: 700;
+    padding-left: 1.2rem;
+    padding-top: .3rem;
+}
+
+.flexRight{
+    width: 50%;
+    height: 100vh;
+    margin-left: 53px;
+}
+
+
+.logoImg{
+    border-radius: 9px;
+}
+
+.svgContainer{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginSvg{
+    height: 373px;
+    width: 560px;
+}
+
+.svgText{
+    padding: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary);
+    text-align: center;
+}
+
+.registerTitle{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 6rem;
+    margin-bottom: 30px;
+}
+
+.formLabel{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--black);
+    padding-bottom: 10px;
+}
+
+#formField{
+    width: 83%;
+}
+
+.registerBtn{
+    margin-top: 30px;
+    background-color: var(--primary);
+    color: var(--white);
+    width: 83%;
+    height: 42px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+
+.registerBtn:hover{
+    color: var(--primary);
+    background-color: var(--white);
+    border: 1px solid #21897E;
+}
+
+.checkboxText{
+    padding-top: 1rem;
+    font-size: 15px;
+}
+
+.greenText{
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.horizLine{
+    width: 38%;
+    color: #b6aeae;
+}
+.orText{
+    padding: .25rem 1rem 0 1rem;
+    color: #b6aeae;
+    
+}
+
+.orGroup{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.googleBtn{
+    width: 83%;
+}
+
+.loginText{
+    margin-left: 25%;
+    margin-top: 2rem;
+    font-size: 15px;
+    color: var(--black);
+}
+
+.loginText span{
+    font-weight: 600;
+    color: var(--primary);
+}
+
+@media screen and (max-width: 1124px){
+    .flexContainer{
+        flex-direction: column;
+    }
+
+    .loginSvg{
+        display: none;
+    }
+    
+    .svgText{
+        display: none;
+    }
+
+    .flexLeft{
+        width: 100%;
+        height: 7rem;
+        /* padding-top: 1rem; */
+    }
+
+    .flexRight{
+        height: 10vh;
+        width: 100%;
+    }
+
+    .loginText{
+        margin-left: 30%;
+        margin-top: 2rem;
+        font-size: 15px;
+        color: var(--black);
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .loginText{
+        margin-left: 27%;
+    }
+
+}
+
+@media screen and (max-width: 638px){
+
+    .loginText{
+        margin-left: 23%;
+    }
+    .navTitle{
+        font-size: 1.4rem;
+        color: var(--primary);
+        font-weight: 700;
+        padding-left: 1.2rem;
+        padding-top: .6rem;
+    }
+
+}
+
+@media screen and (max-width: 566px){
+
+    .loginText{
+        margin-left: 18%;
+    }
+
+}
+
+@media screen and (max-width: 522px){
+    
+    .loginText{
+        margin-left: 15%;
+    }
+
+    .checkboxText{
+        padding-top: .7rem;
+        font-size: 13px;
+    }
+    
+    .greenText{
+        color: var(--primary);
+        font-weight: 600;
+    }
+    
+    .horizLine{
+        width: 38%;
+        color: #b6aeae;
+    }
+    .orText{
+        padding: .25rem 1rem 0 1rem;
+        color: #b6aeae;
+        
+    }
+
+    .flexRight{
+        margin-top: -3rem;
+    }
+}
+
+@media screen and (max-width: 470px){
+
+    .registerTitle{
+        font-size: 18px;
+        margin-left: -1.5rem;
+    }
+
+    #formField{
+        width: 80%;
+        margin-left: -1.5rem;
+
+    }
+    
+    .loginText{
+        margin-left: 13%;
+    }
+    .checkboxText{
+        padding-top: .9rem;
+        font-size: 12px;
+        margin-left: -1.5rem;
+
+    }
+    
+    .greenText{
+        color: var(--primary);
+        font-weight: 600;
+    }
+    
+    .horizLine{
+        width: 36%;
+        color: #b6aeae;
+    }
+    .orText{
+        padding: .25rem 1rem 0 1rem;
+        color: #b6aeae;
+        
+    }
+
+}

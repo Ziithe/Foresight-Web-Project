@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+/* color variables */
+:root{
+    --primary: #21897E;
+    --white: #fafafa;
+    --black: #282828;
+    --blue: #79adc4;
+    --alt-blue: #E4F4F4;
+    --red: #B80C09;
+}
+
+::selection {
+    color: var(--white);
+    background: var(--blue);
+}
+
+.heroSection{
+    background-color: var(--primary);
+}
+
+.brandImg{
+    border-radius: 3px;
+}
+
+.brandTitle{
+    font-size: 1.6rem;
+}
+
+.brandTitle{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white!important;
+}
+
+.navLink{
+    color: var(--white)!important;
+    padding: .75rem 0 .75rem 0!important;
+}
+
+.navLink:hover{
+    color: var(--blue)!important;
+}
+
+.heroContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 3.9rem;
+}
+
+.heroLeft{
+    margin-left: 1.5rem;
+    width: 50%;
+}
+
+.heroTitle{
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: var(--white);
+    padding: 8rem 0 2rem 0;
+}
+
+.heroText{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    width: 80%;
+}
+
+.blob1{
+    position: absolute;
+    top: 470px;
+    left: -70px;
+    height: 150px;
+    z-index: 0;
+}
+
+.heroRight{
+    width: 50%;
+}
+
+.droneImg1{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 791px;
+    top: 223px;
+    border-radius: 200px;
+}
+
+.droneImg2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 1165px;
+    top: 176px;
+    border-radius: 300px;
+}
+
+.droneImg3{
+    height: 122px;
+    width: 122px;
+    position: absolute;
+    left: 938px;
+    top: 381px;
+    border-radius: 200px;
+}
+
+.aerialImg{
+    height: 152px;
+    width: 152px;
+    position: absolute;
+    left: 1274px;
+    top: 435px;
+    border-radius: 200px;
+}
+
+.dotsImg{
+    position: absolute;
+    width: 100px;
+    height: 92px;
+    left: 1316px;
+    top: 166px;
+    opacity: .5;
+    z-index: 0;
+}
+
+.heroBtn{
+    background-color: var(--white);
+    color: var(--primary);
+    border-radius: 3px;
+    height: 45px;
+    width: auto;
+}
+
+.heroBtn:hover{
+    background-color: var(--alt-blue);
+    color: var(--primary);
+}
+
+
+.primaryBtn{
+    background-color: var(--white);
+    color: var(--primary);
+    height: 40px;
+    border-radius: 3px;    
+}
+
+.primaryBtn:hover{
+    background-color: rgb(233, 227, 227);
+    color: #21897E;
+}
+
+
+
+
+
+/* Breakpoints for Desktop */
+
+@media only screen and (min-width: 768px){
+
+    /* Navbar */
+    
+    .nav{
+        margin: 0px 3.125rem;
+        padding-top: 1.5rem;
+    }
+
+    .brandTitle{
+        font-size: 1.75rem;
+        font-weight: 600;
+    }
+
+    #leftMargin{
+        margin-left: 2rem;
+    }
+
+    .navLink{
+        color: var(--white);
+        padding: 0 1.4rem 0 1.4rem!important;
+    }
+
+    .navLink:hover{
+        color: var(--blue)!important;
+    }
+
+    /* Hero Section For Desktop */
+
+    .heroSection{
+        background-color: var(--primary);
+    }
+
+    .heroContainer{
+        display: flex;
+        flex-direction: row;
+        margin: 0rem 3.9rem;
+        height: 33rem;
+    }
+
+    .heroLeft{
+        margin-left: 1.5rem;
+        width: 50%;
+    }
+
+    .heroTitle{
+        font-size: 3.125rem;
+        font-weight: 700;
+        color: var(--white);
+        padding: 8rem 0 2rem 0;
+    }
+
+    .heroText{
+        font-size: 1.25rem;
+        color: white;
+        font-weight: 500;
+        padding-bottom: 2rem;
+        width: 80%;
+    }
+
+    .blob1{
+        position: absolute;
+        top: 470px;
+        left: -70px;
+        height: 150px;
+        z-index: 0;
+    }
+
+    .heroRight{
+        width: 50%;
+    }
+
+    .droneImg1{
+        position: absolute;
+        width: 128px;
+        height: 128px;
+        left: 791px;
+        top: 223px;
+        border-radius: 200px;
+    }
+
+    .droneImg2{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        left: 1165px;
+        top: 176px;
+        border-radius: 300px;
+    }
+
+    .droneImg3{
+        height: 122px;
+        width: 122px;
+        position: absolute;
+        left: 938px;
+        top: 381px;
+        border-radius: 200px;
+    }
+
+    .aerialImg{
+        height: 152px;
+        width: 152px;
+        position: absolute;
+        left: 1274px;
+        top: 435px;
+        border-radius: 200px;
+    }
+
+    .dotsImg{
+        position: absolute;
+        width: 100px;
+        height: 92px;
+        left: 1316px;
+        top: 166px;
+        opacity: .5;
+        z-index: 0;
+    }
+
+    .heroBtn{
+        background-color: var(--white);
+        color: var(--primary);
+        border-radius: 3px;
+        height: 45px;
+        width: auto;
+    }
+
+    .heroBtn:hover{
+        background-color: var(--alt-blue);
+        color: var(--primary);
+    }
+
+
+    .primaryBtn{
+        background-color: var(--white);
+        color: var(--primary);
+        height: 40px;
+        border-radius: 3px;    
+    }
+
+    .primaryBtn:hover{
+        background-color: rgb(233, 227, 227);
+        color: #21897E;
+    }
+
+    /* validation section */
+
+    .validationContainer{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3.9rem;
+        padding-top: 7.5rem;
+    }
+
+    .validationLeft{
+        width: 50%;
+    }
+
+    .blob2{
+        position: absolute;
+        left: 50px;
+        top: 710px;
+        z-index: -1;
+    }
+
+    /* Validation Area */
+
+    .validationArea{
+        margin-top: 3.2rem;
+    }
+
+    .validationTitle{
+        font-weight: 700;
+        color: var(--black);
+        padding-bottom: 1rem;
+        font-size: 2.1rem;
+        text-align: center;
+    }
+
+    .validationText{
+        font-weight: 500;
+        color: rgb(127, 131, 127);
+        font-size: 1.05rem;
+        text-align: center;
+    }
+
+    .logoContainer{
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: row wrap; */
+    }
+
+    .logoContainer img{
+        height: 80px;
+        width: 80px;
+    }
+
+}
