@@ -14,7 +14,7 @@ function About() {
                 
                 <div className="aboutRight">
                     <h2 className="aboutRightTitle">Gain a keen eye into your crop health</h2>
-                    <p className="aboutRightText">Foresight is an agri-tech start-up based in Kenya that uses agricultural drone technology to determine crop quality and accurately estimate crop yields. This will provide a precise method of obtaining crop forecasts in the age of changing weather conditions. 
+                    <p className="aboutRightText">Foresight is an agri-tech start-up based in East and Southern Africa that uses agricultural drone technology to determine crop quality and accurately estimate crop yields. This will provide a precise method of obtaining crop forecasts in the age of changing weather conditions. 
                     Our drones are equipped with high-quality cameras that are capable of taking sharp aerial pictures, that contain projections of yield amounts and quality in terms of moisture levels and overall crop health. </p>
 
                     <div className="aboutBtnContainer">
